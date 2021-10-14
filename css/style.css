@@ -28,24 +28,22 @@ body {
   display: grid;
   grid-template-columns: 300px;
   grid-template-rows: auto;
-  grid-template-areas: 
-        "header"
-        "main"
-        "#rating"
-        "expanded"
-        "footer";
+  /* grid-template-areas: 
+    "header"
+    "main"
+    "#rating"
+    "expanded"
+    "footer"; */
 }
 
 header {
     background-color: white;
-    padding: 15px 15px 15px 0;
-    color: #ebdbdb;
+    padding: 15px 15px;
+    color: #949494;
     font-size: 10px;
-    text-align: right;
   }
 
   header > div {
-      margin: auto;
       display: flex;
       justify-content: center; 
   }
@@ -75,7 +73,6 @@ footer {
 #messaging 
     {
       text-align: center;
-      align-items: center;
       background-color: #52b36f;
       padding: 10px;
       width: 50%;
@@ -85,7 +82,6 @@ footer {
 #call 
   {
     text-align: center;
-    align-items: center;
     display: block;
     padding: 10px;
     width: 50%;
@@ -116,6 +112,7 @@ footer {
 
 h1 {
   color: black;
+  font-size: 20px;
 }
 h2{
   font-weight: normal;
@@ -131,9 +128,6 @@ h2{
   }
 
   header {
-    /* background-color: white; */
-    padding-left: 10px;
-    font-size: 10px;
     text-align: left;
     height: 300px;
   }
@@ -160,17 +154,14 @@ main {
     
 footer {
       background-color:#61d082;
-      display: flex;
-      flex-direction: row;
-      height: 75px;
-      margin-bottom: 400px;
+      height: 65px;
+      margin-bottom: 390px;
     }
     
 #messaging 
     {
       text-align: center;
       background-color: #52b36f;
-      padding: 10px;
       width: 50%;
       font-size: 35px;
     }
@@ -206,10 +197,10 @@ footer {
 }
 
 #cost {
-  padding: 10px;
   background-color: #F3F3F3;
-  text-align: left;
-  align-content: end;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin: 20px 0px 0px 0px;
 }
 
 h1 {
